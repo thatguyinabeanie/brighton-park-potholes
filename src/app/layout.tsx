@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://pershing-speed-bumps.vercel.app";
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://brighton-park-potholes.vercel.app";
 
 export const viewport = {
   width: "device-width",
@@ -22,22 +22,22 @@ export const viewport = {
 };
 
 export const metadata: Metadata = {
-  title: "Request Speed Bumps for Pershing Road - Take Action Now",
-  description: "Join your neighbors in making Pershing Road safer. Send a pre-written email to Alderwoman Ramirez requesting speed bumps to stop dangerous speeding between Kedzie and St. Louis.",
-  keywords: ["Pershing Road", "speed bumps", "Chicago", "Ward 12", "traffic safety", "community organizing", "Alderwoman Ramirez"],
-  authors: [{ name: "Pershing Road Residents" }],
+  title: "Fix Our Alley - Demand Complete Reconstruction Now",
+  description: "Join your neighbors in demanding complete alley reconstruction. The 3900 block alley (Pershing to 38th Place) is dangerous with potholes, glass, and nails. Send an urgent request to Alderwoman Ramirez.",
+  keywords: ["Brighton Park", "potholes", "alley reconstruction", "Chicago", "Ward 12", "infrastructure", "community organizing", "Alderwoman Ramirez"],
+  authors: [{ name: "3900 Block Residents" }],
   
   openGraph: {
-    title: "Speed Bumps for Pershing Road",
-    description: "Join your neighbors in making Pershing Road safer. Help us get traffic calming measures installed between Kedzie and St. Louis.",
+    title: "Fix Our Alley - Brighton Park Pothole Crisis",
+    description: "Dangerous alley conditions demand action. Help us get complete reconstruction for the 3900 block alley filled with potholes, glass, and nails.",
     url: siteUrl,
-    siteName: "Pershing Road Safety",
+    siteName: "Brighton Park Alley Reconstruction",
     images: [
       {
-        url: `${siteUrl}/og-speed-bumps-simple.png`,
+        url: `${siteUrl}/og-potholes.png`,
         width: 1200,
         height: 630,
-        alt: "Speed bump on a residential street - Request Speed Bumps for Pershing Road",
+        alt: "Dangerous pothole-filled alley requiring complete reconstruction",
       }
     ],
     locale: "en_US",
@@ -46,9 +46,9 @@ export const metadata: Metadata = {
   
   twitter: {
     card: "summary_large_image",
-    title: "Speed Bumps for Pershing Road",
-    description: "Help make our street safer. Send an email to Alderwoman Ramirez requesting speed bumps to stop dangerous speeding.",
-    images: [`${siteUrl}/twitter-speed-bumps-clean.png`],
+    title: "Fix Our Alley - Complete Reconstruction Needed",
+    description: "Our alley is dangerous with potholes, glass, and nails. Help demand complete reconstruction from Alderwoman Ramirez.",
+    images: [`${siteUrl}/twitter-potholes.png`],
     creator: "@ward12chicago",
   },
   

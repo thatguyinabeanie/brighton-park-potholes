@@ -40,7 +40,7 @@ export default function Home() {
   }, [language]);
   
   const emailTo = "ward12@cityofchicago.org";
-  const emailSubject = "Request for Speed Bumps - Pershing Road Safety Concerns";
+  const emailSubject = "Urgent Request for Complete Alley Reconstruction - 3900 Block Spaulding to Homan";
   
   const t = translations[language];
   
@@ -48,40 +48,52 @@ export default function Home() {
     const displayName = name || "[YOUR NAME HERE]";
     return `Dear Alderwoman Ramirez and 12th Ward Staff,
 
-I am ${displayName}, a resident on Pershing Road between Kedzie and St. Louis. I am writing to request speed bumps on our block to address serious safety concerns. Many of my neighbors share these concerns about the safety of our families and community.
+I am ${displayName}, a resident of the 3900 block between Pershing Road and 38th Place. I am writing to urgently request the COMPLETE RECONSTRUCTION of our alley, not another temporary patch job. The residents of our block are counting on you to be the leader who finally addresses this long-neglected hazard.
 
 **Location Details:**
-- Street: Pershing Road between Kedzie Avenue and St. Louis Avenue
-- Neighborhood: McKinley Park area of the 12th Ward
-- Priority area: This residential stretch experiencing dangerous speeding
+- Alley: 3900 block between Pershing Road and 38th Place
+- From: Spaulding Avenue going East to Homan Avenue
+- Ward: 12th Ward
+- Priority: COMPLETE RECONSTRUCTION REQUIRED - Not patches
 
-**Safety Concerns:**
-Pershing Road has become a dangerous speed corridor. Our neighborhood has experienced gang-related violence involving high-speed vehicle chases. Additionally, modified vehicles speed down our street at all hours. The straight, residential nature of this street attracts dangerous driving behaviors.
+**Current Dangerous Conditions:**
+The previous alderman's administration failed our community by using the cheapest possible materials for a temporary fix. As predicted, these patches have deteriorated and the alley is now in WORSE condition than before. The current state is absolutely unacceptable:
 
-This creates serious safety hazards for:
-- Residents entering/exiting their homes and driveways
-- Children playing or walking to school
-- Pedestrians accessing nearby McKinley Park
-- Anyone crossing the street in this residential area
-- Community safety during vehicle-related incidents
+- Countless deep potholes that damage vehicles daily
+- Shards of glass throughout the entire alley
+- Numerous nails causing tire punctures
+- Broken glass scattered as if bottles were deliberately smashed along the entire stretch
+- Uneven, sinking asphalt creating dangerous walking conditions
+- The old asphalt is literally crumbling and creating hazardous debris
 
-Speed bumps would help slow traffic and deter dangerous driving behaviors.
+This is a SAFETY EMERGENCY for:
+- Residents who cannot safely access their garages
+- Children who cannot play safely near their homes
+- Elderly residents at risk of injury from uneven surfaces
+- Emergency vehicles that may need alley access
+- Sanitation workers trying to do their jobs
 
-**Request:**
-I would like to request speed bump installation on Pershing Road between Kedzie and St. Louis. Please provide information about:
-1. The petition process and required documentation
-2. Community support requirements
-3. Timeline for review and installation
-4. Any additional traffic calming measures available
+**Why Complete Reconstruction is Essential:**
+The adjacent alleys have smooth concrete surfaces that have lasted for years. Our alley, with its deteriorating asphalt patches over old asphalt, is a stark contrast and an embarrassment. We need the entire alley torn out and replaced with proper concrete - the same treatment other blocks have received.
 
-Our neighborhood is organized and committed to improving safety on our street. We look forward to working with your office on this important matter.
+**Your Opportunity:**
+Alderwoman Ramirez, the previous alderman was voted out for a reason - they failed to properly address constituent needs. You now have the opportunity to show real leadership and prove that you listen to and act on community concerns. This is your chance to be the hero our neighborhood needs.
 
-Thank you for your time and consideration. I am available to discuss this further or provide additional information as needed.
+**Specific Request:**
+1. Complete removal of all existing deteriorated pavement
+2. Proper grading and preparation of the alley base
+3. Installation of new concrete alley surface (not asphalt patches)
+4. Timeline for when this work will be scheduled and completed
+5. Commitment that this will be done RIGHT this time
 
-Best regards,
+The years of neglect must end now. We are organized, we are persistent, and we will not accept another band-aid solution. We need action, not excuses.
+
+I look forward to your prompt response and a commitment to finally fix this hazardous situation properly.
+
+Thank you for being the leader we voted for - one who will actually solve problems rather than create worse ones.
 
 ${displayName}
-Pershing Road Resident (between Kedzie and St. Louis)
+3900 Block Resident (Pershing to 38th Place)
 Ward 12`;
   };
 
@@ -90,46 +102,60 @@ Ward 12`;
     return `
       <p>Dear Alderwoman Ramirez and 12th Ward Staff,</p>
       
-      <p>I am ${displayName}, a resident on Pershing Road between Kedzie and St. Louis. I am writing to request speed bumps on our block to address serious safety concerns. Many of my neighbors share these concerns about the safety of our families and community.</p>
+      <p>I am ${displayName}, a resident of the 3900 block between Pershing Road and 38th Place. I am writing to urgently request the <strong>COMPLETE RECONSTRUCTION</strong> of our alley, not another temporary patch job. The residents of our block are counting on you to be the leader who finally addresses this long-neglected hazard.</p>
       
       <p><strong>Location Details:</strong></p>
       <ul style="margin-left: 20px;">
-        <li>Street: Pershing Road between Kedzie Avenue and St. Louis Avenue</li>
-        <li>Neighborhood: McKinley Park area of the 12th Ward</li>
-        <li>Priority area: This residential stretch experiencing dangerous speeding</li>
+        <li>Alley: 3900 block between Pershing Road and 38th Place</li>
+        <li>From: Spaulding Avenue going East to Homan Avenue</li>
+        <li>Ward: 12th Ward</li>
+        <li>Priority: <strong>COMPLETE RECONSTRUCTION REQUIRED - Not patches</strong></li>
       </ul>
       
-      <p><strong>Safety Concerns:</strong></p>
-      <p>Pershing Road has become a dangerous speed corridor. Our neighborhood has experienced gang-related violence involving high-speed vehicle chases. Additionally, modified vehicles speed down our street at all hours. The straight, residential nature of this street attracts dangerous driving behaviors.</p>
+      <p><strong>Current Dangerous Conditions:</strong></p>
+      <p>The previous alderman's administration failed our community by using the cheapest possible materials for a temporary fix. As predicted, these patches have deteriorated and the alley is now in <strong>WORSE</strong> condition than before. The current state is absolutely unacceptable:</p>
       
-      <p>This creates serious safety hazards for:</p>
       <ul style="margin-left: 20px;">
-        <li>Residents entering/exiting their homes and driveways</li>
-        <li>Children playing or walking to school</li>
-        <li>Pedestrians accessing nearby McKinley Park</li>
-        <li>Anyone crossing the street in this residential area</li>
-        <li>Community safety during vehicle-related incidents</li>
+        <li>Countless deep potholes that damage vehicles daily</li>
+        <li>Shards of glass throughout the entire alley</li>
+        <li>Numerous nails causing tire punctures</li>
+        <li>Broken glass scattered as if bottles were deliberately smashed along the entire stretch</li>
+        <li>Uneven, sinking asphalt creating dangerous walking conditions</li>
+        <li>The old asphalt is literally crumbling and creating hazardous debris</li>
       </ul>
       
-      <p>Speed bumps would help slow traffic and deter dangerous driving behaviors.</p>
+      <p>This is a <strong>SAFETY EMERGENCY</strong> for:</p>
+      <ul style="margin-left: 20px;">
+        <li>Residents who cannot safely access their garages</li>
+        <li>Children who cannot play safely near their homes</li>
+        <li>Elderly residents at risk of injury from uneven surfaces</li>
+        <li>Emergency vehicles that may need alley access</li>
+        <li>Sanitation workers trying to do their jobs</li>
+      </ul>
       
-      <p><strong>Request:</strong></p>
-      <p>I would like to request speed bump installation on Pershing Road between Kedzie and St. Louis. Please provide information about:</p>
+      <p><strong>Why Complete Reconstruction is Essential:</strong></p>
+      <p>The adjacent alleys have smooth concrete surfaces that have lasted for years. Our alley, with its deteriorating asphalt patches over old asphalt, is a stark contrast and an embarrassment. We need the entire alley torn out and replaced with proper concrete - the same treatment other blocks have received.</p>
+      
+      <p><strong>Your Opportunity:</strong></p>
+      <p>Alderwoman Ramirez, the previous alderman was voted out for a reason - they failed to properly address constituent needs. You now have the opportunity to show real leadership and prove that you listen to and act on community concerns. This is your chance to be the hero our neighborhood needs.</p>
+      
+      <p><strong>Specific Request:</strong></p>
       <ol style="margin-left: 20px;">
-        <li>The petition process and required documentation</li>
-        <li>Community support requirements</li>
-        <li>Timeline for review and installation</li>
-        <li>Any additional traffic calming measures available</li>
+        <li>Complete removal of all existing deteriorated pavement</li>
+        <li>Proper grading and preparation of the alley base</li>
+        <li>Installation of new concrete alley surface (not asphalt patches)</li>
+        <li>Timeline for when this work will be scheduled and completed</li>
+        <li>Commitment that this will be done RIGHT this time</li>
       </ol>
       
-      <p>Our neighborhood is organized and committed to improving safety on our street. We look forward to working with your office on this important matter.</p>
+      <p>The years of neglect must end now. We are organized, we are persistent, and we will not accept another band-aid solution. We need action, not excuses.</p>
       
-      <p>Thank you for your time and consideration. I am available to discuss this further or provide additional information as needed.</p>
+      <p>I look forward to your prompt response and a commitment to finally fix this hazardous situation properly.</p>
       
-      <p>Best regards,</p>
+      <p>Thank you for being the leader we voted for - one who will actually solve problems rather than create worse ones.</p>
       
       <p>${displayName}<br/>
-      Pershing Road Resident (between Kedzie and St. Louis)<br/>
+      3900 Block Resident (Pershing to 38th Place)<br/>
       Ward 12</p>
     `.trim();
   };
@@ -237,7 +263,7 @@ Ward 12`;
             </div>
           </div>
           <a
-            href="https://github.com/thatguyinabeanie/pershing-speed-bumps"
+            href="https://github.com/thatguyinabeanie/brighton-park-potholes"
             target="_blank"
             rel="noopener noreferrer"
             className="absolute top-8 right-4 text-gray-700 hover:text-gray-900 transition-colors"
@@ -265,18 +291,6 @@ Ward 12`;
           <p className="text-lg text-gray-700 font-medium">
             {t.urgentSubtitle}
           </p>
-          <div className="mt-6 flex justify-center">
-            <div className="relative" style={{ maxWidth: "300px", width: "100%" }}>
-              <Image 
-                src="/speed-bumps.png" 
-                alt="Speed bump example" 
-                width={258}
-                height={195}
-                className="rounded-lg shadow-md w-full h-auto"
-                priority
-              />
-            </div>
-          </div>
         </div>
 
         {/* Collapsible Why Speed Bumps Matter Section */}
@@ -482,7 +496,7 @@ Ward 12`;
               {t.footerIssues}
             </p>
             <a
-              href="https://github.com/thatguyinabeanie/pershing-speed-bumps/issues/new"
+              href="https://github.com/thatguyinabeanie/brighton-park-potholes/issues/new"
               target="_blank"
               rel="noopener noreferrer"
               className="text-blue-600 hover:text-blue-800 font-medium text-sm inline-flex items-center gap-2"

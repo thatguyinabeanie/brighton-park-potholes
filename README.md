@@ -1,20 +1,20 @@
-# 🚦 Speed Bumps for Pershing Road
+# 🚧 Fix Our Alley - Brighton Park Pothole Crisis
 
-A community-driven initiative to improve public safety on Pershing Road between Kedzie and St. Louis in Chicago's Ward 12.
+A community-driven initiative to demand complete reconstruction of the dangerous alley between Pershing Road and 38th Place (Spaulding to Homan) in Chicago's Ward 12.
 
-🌐 **Live Site**: [pershing-speed-bumps.vercel.app](https://pershing-speed-bumps.vercel.app)
+🌐 **Live Site**: [brighton-park-potholes.vercel.app](https://brighton-park-potholes.vercel.app)
 
 ## 🎯 Purpose
 
-This website empowers residents to quickly and easily contact Alderwoman Julia Ramirez about urgent public safety concerns on Pershing Road. Our neighborhood has experienced dangerous speeding and vehicle-related incidents that put families at risk.
+This website empowers residents to quickly and easily contact Alderwoman Julia Ramirez about the dangerous conditions in our alley. After years of neglect and a failed patch job by the previous administration, our alley is now in WORSE condition than before - filled with potholes, glass shards, and nails. We demand complete reconstruction, not another band-aid solution.
 
 ## ✨ Features
 
-- 📧 **One-Click Email** - Pre-written email template addressing public safety concerns
-- 🏃 **Quick Action** - Send an email in under 30 seconds
+- 📧 **One-Click Email** - Pre-written email template demanding complete alley reconstruction
+- 🏃 **Quick Action** - Send an urgent request in under 30 seconds
 - 📱 **Mobile Friendly** - Works perfectly on all devices
 - 🔗 **Multiple Email Options** - Supports Gmail, Outlook, Yahoo Mail, and native email apps
-- ✏️ **Personalization** - Add your name to customize the message
+- ✏️ **Personalization** - Add your name to strengthen the message
 
 ## 🛠️ Built With
 
@@ -34,8 +34,8 @@ This website empowers residents to quickly and easily contact Alderwoman Julia R
 
 1. Clone the repository
 ```bash
-git clone https://github.com/thatguyinabeanie/pershing-speed-bumps.git
-cd pershing-speed-bumps
+git clone https://github.com/thatguyinabeanie/brighton-park-potholes.git
+cd brighton-park-potholes
 ```
 
 2. Install dependencies
@@ -52,11 +52,11 @@ npm run dev
 
 ## 📝 Customization
 
-To adapt this for other streets or wards:
+To adapt this for other infrastructure issues:
 
 1. Update the alderman contact info in `src/app/page.tsx`
-2. Modify the email template to address your specific concerns
-3. Update the street boundaries and ward number
+2. Modify the email template to address your specific infrastructure problem
+3. Update the location details and ward number
 4. Deploy your own version
 
 ## 🤝 Contributing
@@ -72,10 +72,10 @@ This is a community project! Contributions are welcome:
 ## 💡 Ideas for Enhancement
 
 - [ ] Add petition functionality
-- [ ] Include crime statistics visualization
+- [ ] Include photo upload for documenting conditions
 - [ ] Multi-language support (Spanish, Polish)
-- [ ] Success story tracking
-- [ ] Neighbor testimonials
+- [ ] Track reconstruction progress
+- [ ] Before/after comparisons
 
 ## 📞 Contact
 
@@ -96,4 +96,4 @@ Together, we can make our streets safer! 💪
 
 ---
 
-*Built with ❤️ by concerned residents of Pershing Road*
+*Built with ❤️ by concerned residents of the 3900 block*
